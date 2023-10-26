@@ -345,3 +345,105 @@ img#primeraCarreraFoto {
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
+/* TEMPORADA 2023 */
+
+/* CAMPEONATO PILOTOS */
+.h2Temporada2023 {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 30px;
+    text-decoration: underline;
+}
+
+.cardPiloto {
+    display: inline-block;
+    margin: 10px 75px 40px 75px;
+    border-radius: 8px;
+}
+
+@media (min-width: 1372px) {
+    #checo2023 {
+        position: relative;
+        left: 100px;
+    }
+}
+
+@media (min-width: 1372px) {
+    #hamilton2023 {
+        position: relative;
+        right: 100px;
+    }
+}
+
+
+.card-body-2023 {
+    background-color: rgb(202, 0, 0);
+    padding: 3px;
+    border-radius: 0 0 6px 6px;
+}
+
+.card-text-2023 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.tablaCampeonatoPilotos {
+    margin: 0 50px 20px 50px;
+    border-radius: 3px;
+}
+
+@media (max-width: 768px) {
+    .nombrePiloto {
+        display: none;
+    }
+}
+
+.puesto {
+    font-weight: bold;
+}
+
+.tablaCampeonatoPilotos tr:hover td{
+    background-color: rgba(220, 22, 22, 0.863);
+    color: white;
+}
+
+/* CAMPEONATO ESCUDERIAS */
+.tablaCampeonatoEscuderias {
+    margin: 0 50px 20px 50px;
+}
+
+.tablaCampeonatoEscuderias tr:hover td {
+    background-color: rgba(220, 22, 22, 0.863);
+    color: white;
+}
+
+.puntosEscuderia {
+    text-align: end;
+}
+
+.autoLogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.nombreEscuderia {
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .auto2023 {
+        display: none;
+    }
+    .pilotosEscuderia {
+        display: none;
+    }
+}
