@@ -556,3 +556,75 @@ div ul li {
     text-align: center;
     font-weight: bold;
 }
+
+/* TIENDA */
+.tienda ul {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.tienda li {
+    display: inline;
+    padding: 20px;
+    list-style-type: none;
+}
+
+.tienda li:hover {
+    background-color: rgb(202, 0, 0);
+    color: white;
+}
+
+.tiendaEquipos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tiendaEquipos li {
+    padding: 5px;
+}
+
+.h2Tienda {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 30px;
+    text-decoration: underline;
+}
+
+.h3Tienda {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.cardTienda {
+    display: inline-block
+}
+
+.searchDiv {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.btn {
+    color: black;
+    border-color: black;
+}
+
+.btn:hover {
+    color: white;
+    background-color: rgb(202, 0, 0);
+    border-color: rgb(202, 0, 0);
+}
+
+.btnTienda {
+    color: white;
+    background-color: rgb(202, 0, 0);
+}
