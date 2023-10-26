@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+header {
+    background-color: rgb(202, 0, 0);
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.tamLogo {
+    width: 80px;
+}
+
+.titulo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.fuenteMen {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+.fuenteMen a:hover {
+    color: white;
+}
+
+/* FOOTER */
+footer {
+    background-color: rgb(202, 0, 0);
+    border-top: 1px solid black;
+}
+
+.descarga {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    color: black;
+    padding: 5px;
+}
+
+.aplicacion {
+    background-color: white;
+    width: auto;
+    height: auto;
+    border-style: none;
+    margin: 0 7px 0 7px;
+}
+
+.google {
+    width: 30px;
+}
+
+.apple {
+    width: 47px;
+}
+
+.textoAplicacion {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.redesSociales {
+    width: 30px;
+    border-radius: 10px;
+}
+
+.oculto {
+    position: absolute!important;
+    width: 1px!important;
+    height: 1px!important;
+    padding: 0!important;
+    margin: -1px!important;
+    overflow: hidden!important;
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
+    clip: rect(0,0,0,0)!important;
+    white-space: nowrap!important;
+    border: 0!important;
+}
+
+.correo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    color: black;
+    padding: 5px;
+}
+
+.submit {
+    background-color: white;
+    border: 0.75px solid black;
+}
+
+.nuestrasRedes {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    color: black;
+    padding: 5px;
+}
+
+@media (min-width: 768px) {
+    #footer {
+        display: grid;
+        grid-template-areas: 
+        "descargaApp descargaApp"
+        "tituloFormulario seguinosRedes"
+        "formularioEmail rrss";
+        grid-template-rows: auto;
+        grid-template-columns: 50%;
+        row-gap: 10px;
+    }
+}
+
+@media (min-width: 1024px) {
+    #footer {
+        display: grid;
+        grid-template-areas: 
+        "descargaApp tituloFormulario seguinosRedes"
+        "descargaApp formularioEmail rrss";
+        grid-template-rows: auto;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+div#descargaApp {
+    grid-area: descargaApp;
+}
+
+ul#botonesAplicacion {
+    grid-area: botonesAplicacion;
+}
+
+h4#tituloDescargaApp {
+    grid-area: tituloDescargaApp;
+}
+
+h4#tituloFormulario {
+    grid-area: tituloFormulario;
+}
+
+h4#seguinosRedes {
+    grid-area: seguinosRedes;
+}
+
+div#formularioEmail {
+    grid-area: formularioEmail;
+}
+
+ul#rrss {
+    grid-area: rrss;
+}
+
+/* INICIO */
+.carousel {
+    margin-top: 20px;
+}
+
+.mainInicio {
+    margin: 0 10px 0 10px;
+    padding: 0 10px 0 10px;
+}
+
+.h2Inicio {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 30px;
+    text-decoration: underline;
+}
+
+.h3Inicio {
+    font-size: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.h4Inicio {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.pInicio {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.card-img-top-neumatico {
+    width: 125px;
+    height: 110px;
+    align-self: center;
+    padding-top: 7px;
+}
+
+.neumaticos {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.banderas {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.halo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.volantes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
